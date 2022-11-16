@@ -5,8 +5,8 @@
 Requirements:
 * Minimal lulusan SMK.
 * Passion di infosec (kaminfo), khususnya Blue Team.
-* Knowledge in Networking (TCP/IP, switching, dan routing).
-* Knowledge in Operating system administration (Windows/Linux).
+* Pengetahuan Networking (TCP/IP, switching, dan routing).
+* Pengetahuan Operating system administration (Windows/Linux).
 
 Responsibilities:
 * Oversee 24/7 SOC operations.
