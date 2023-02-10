@@ -9,7 +9,11 @@ SOC (Security Operations Center) atau pusat operasi keamanan adalah unit terpusa
 Lorem ipsum ...
 
 ## Tiga+ Pilar
-Lorem ipsum ...
+Pilar pertama, confidentiality berarti keamanan informasi harus menjamin bahwa hanya pemilik sistem informasi yang memiliki hak akses informasi tertentu. “Rahasia berarti hanya orang yang berhak, yang bisa melihat data tersebut. Jika bisa dibaca oleh seseorang yang tidak berhak, artinya telah terjadi kebocoran data yang akan merugikan perusahaan dan juga pemilik data,” tutur Girindro. Pilar tersebut, kata dia, mempengaruhi bentuk kontrol dalam beberapa hal, seperti kontrol akses, izin akses file, dan enkripsi. Gambarannya, terkait akses control, sebuah organisasi dapat menerapkan penggunaan User ID, password, verifikasi dua langkah (2FA), dan biometrik. Kontrol akses ini harus disesuaikan dengan nilai suatu data (penting dan atau risiko).
+
+Kedua, menyangkut izin akses file artinya terkait dengan izin siapa saja yang boleh mengakses file, mengedit, membaca, dan termasuk siapa yang bisa memberikan izin akses. Dan, terakhir, enkripsi berarti data yang sifatnya rahasia haruslah dienkripsi, bisa menggunakan metode symmetric atau asymmetric. Pilar kedua, integritas bersinggungan dengan jaminan kelengkapan informasi dan menjaganya dari kerusakan atau ancaman lain yang bisa mengubah informasi itu. Pendek kata, menurut Girindro, integrity ialah cara untuk memastikan bahwa informasi tersebut masih utuh, akurat, dan belum dimodifikasi oleh orang yang tidak berhak.
+
+Dan, pilah terakhir, avaibility artinya bagaimana cara organisasi melalui keamanan informasinya menjamin pengguna untuk dapat mengakses informasi kapan pun tanpa adanya gangguan dan tidak dalam format yang tidak bisa digunakan. Pilar ini meyakinkan bahwa pengguna mempunyai kesempatan dan akses pada suatu informasi. “Pengguna dalam hal ini bisa jadi manusia atau komputer yang tentunya memiliki otorisasi untuk mengakses informasi,” ujar Girindro.
 
 ## Tier 
 * Tier 1 Security Analyst
@@ -28,14 +32,29 @@ Meninjau penemuan aset dan data penilaian kerentanan. Menjelajahi cara untuk men
 Operations and Management (Chief Operating Officer for the SOC)
 Mengawasi kegiatan tim SOC. Merekrut, mempekerjakan, melatih, dan menilai staf. Mengelola proses eskalasi dan meninjau laporan insiden. Mengembangkan dan melaksanakan rencana komunikasi krisis kepada CISO dan pemangku kepentingan lainnya. Menjalankan laporan kepatuhan dan mendukung proses audit. Mengukur metrik kinerja SOC dan mengomunikasikan nilai operasi keamanan kepada pemimpin bisnis.
 
-
 ## Cyber Kill Chain
 Developed by Lockheed Martin, the Cyber Kill Chain® framework is part of the Intelligence Driven Defense® model for identification and prevention of cyber intrusions activity. The model identifies what the adversaries must complete in order to achieve their objective.
 https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html
 
+## Mini Project SIEM
+### Security-Blue-Team
+This repository will describe the details surrounding the SIEM (wazuh) mini project, which will cover all aspects of topology design, deployment, rules, integration, and fine tune.
 
-======================================
+#### Topology & Prototype
+![My Image](https://raw.githubusercontent.com/13ihsan92/Security-Blue-Team/contributor/Images/Topology-jpg.jpg)
 
+#### Docs & Articles
+[Notion](https://13ihsan92.notion.site/Documentation-san-NBA-stl-b5f06c8384c34fbb877a1313cffd7804)
+
+#### Other Refence About Rules, Architecture, & Compliance
+- [Open Enterprise Security Architecture (O-ESA)](https://pubs.opengroup.org/security/o-esa/#_Toc291061776)
+- [Security Architecture Patterns](https://www.opensecurityarchitecture.org/cms/library/patternlandscape)
+
+**Original Mini Project Repository: [13ihsan92/Security-Blue-Team](https://github.com/13ihsan92/Security-Blue-Team/tree/contributor)**
+
+---
+---
+---
 
 Reviews the latest alerts to determinerelevancy and urgency. Creates new trouble tickets for alerts that signal an incident and require Tier 2 / Incident Response review. Runs vulnerability scans and reviews vulnerability assessment reports. Manages and configures security monitoring tools (IDS, correlation rules, etc.).
 
