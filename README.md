@@ -53,8 +53,6 @@ This repository will describe the details surrounding the SIEM (wazuh) mini proj
 **Original Mini Project Repository: [13ihsan92/Security-Blue-Team](https://github.com/13ihsan92/Security-Blue-Team/tree/contributor)**
 
 ---
----
----
 
 Reviews the latest alerts to determinerelevancy and urgency. Creates new trouble tickets for alerts that signal an incident and require Tier 2 / Incident Response review. Runs vulnerability scans and reviews vulnerability assessment reports. Manages and configures security monitoring tools (IDS, correlation rules, etc.).
 
